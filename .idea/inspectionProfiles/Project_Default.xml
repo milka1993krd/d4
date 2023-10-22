@@ -1,0 +1,16 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="news.models.Author.*" />
+          <option value="news.models.Author.post_set" />
+          <option value="django.db.models.fields.related.OneToOneField.comment_set" />
+          <option value="django.db.models.fields.related.OneToOneField.*" />
+          <option value="super.get_context_data" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
